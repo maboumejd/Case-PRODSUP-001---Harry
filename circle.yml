@@ -25,5 +25,3 @@ test:
 deployment:
   staging:
     branch: master
-    heroku:
-      appname: foo-bar-123
