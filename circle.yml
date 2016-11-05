@@ -19,7 +19,7 @@ checkout:
 ## Customize test commands
 test:
   override:
-    - phpunit podam/test/unit # use PHPunit for testing
+    - junit Harry/tree/editing-circle.yml-file/src/test/java/uk/co/jemos/podam/test/unit # use Junit for testing
   post:
     - bundle exec rake jasmine:ci: # add an extra test type
         environment:
