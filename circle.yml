@@ -20,10 +20,3 @@ test:
         environment:
           RAILS_ENV: test
           RACK_ENV: test
-
-## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: Harry
