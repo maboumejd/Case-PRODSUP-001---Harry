@@ -18,7 +18,7 @@ checkout:
 ## Customize test commands
 test:
   override:
-    - phpunit test/unit # use PHPunit for testing
+    - phpunit maboumejd/Case-PRODSUP-001---Harry/tree/editing-circle.yml-file/src/test/java/uk/co/jemos/podam/test/unit/pdm43 # use PHPunit for testing
   post:
     - bundle exec rake jasmine:ci: # add an extra test type
         environment:
